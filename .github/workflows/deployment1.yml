@@ -13,6 +13,6 @@ jobs:
           - name: Test
             run: npm run test
           - name: Build
-            run: npm run Build
+            run: npm run build
           - name: Deployed succesfull
             run: echo "The deployment is successful"
